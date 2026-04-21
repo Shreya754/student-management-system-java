@@ -28,21 +28,32 @@ A console-based Java application to manage student records using Object-Oriented
 
 ## 📁 Project Structure
 
-```id="f4o6y9"
-Main.java
-Student.java
-StudentService.java
-FileHandler.java
-students.txt
+```plaintext id="q4v3dx"
+student-management-system-java/
+│
+├── src/
+│   ├── Main.java
+│   ├── Student.java
+│   ├── StudentService.java
+│   └── FileHandler.java
+│
+├── students.txt
+├── menu.png
+├── add-student.png
+├── view-students.png
+│
+├── README.md
+├── .gitignore
+└── LICENSE
 ```
 
 ---
 
 ## ▶️ How to Run
 
-```bash id="g3wq7v"
-javac *.java
-java Main
+```bash id="y0q0mg"
+javac src/*.java
+java -cp src Main
 ```
 
 ---
@@ -74,7 +85,7 @@ java Main
 
 ## 👨‍💻 Author
 
-Mohak Chaudhary
+Shreya Rai
 
 ---
 
